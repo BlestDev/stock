@@ -153,6 +153,7 @@ export default function SettingsPage() {
                 <option value="EUR">EUR (€)</option>
                 <option value="USD">USD ($)</option>
                 <option value="GBP">GBP (£)</option>
+                <option value="MGA">MGA (Ar) - Ariary</option>
               </select>
             </div>
           </div>

@@ -14,7 +14,8 @@ import {
   Settings,
   LogOut,
   Menu,
-  X
+  X,
+  Boxes
 } from 'lucide-react';
 
 interface LayoutProps {
@@ -36,6 +37,9 @@ export default function Layout({ children, currentPage, onNavigate }: LayoutProp
     { id: 'expenses', label: 'Dépenses', icon: Wallet },
     { id: 'movements', label: 'Mouvements', icon: TrendingUp },
     { id: 'invoices', label: 'Facturation', icon: FileText },
+    { id: 'resellers', label: 'Revendeurs', icon: Boxes },
+    { id: 'consignments', label: 'Consignations', icon: ShoppingBag },
+    { id: 'reseller-payments', label: 'Ventes Revendeurs', icon: ShoppingCart },
     { id: 'categories', label: 'Catégories', icon: FolderTree },
     { id: 'units', label: 'Unités', icon: Ruler },
     { id: 'settings', label: 'Paramètres', icon: Settings },

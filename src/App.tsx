@@ -10,6 +10,9 @@ import Purchases from './pages/Purchases';
 import Expenses from './pages/Expenses';
 import Movements from './pages/Movements';
 import Invoices from './pages/Invoices';
+import Resellers from './pages/Resellers';
+import Consignments from './pages/Consignments';
+import ResellerPayments from './pages/ResellerPayments';
 import Categories from './pages/Categories';
 import SettingsPage from './pages/Settings';
 
@@ -47,6 +50,12 @@ function AppContent() {
         return <Movements />;
       case 'invoices':
         return <Invoices />;
+      case 'resellers':
+        return <Resellers />;
+      case 'consignments':
+        return <Consignments />;
+      case 'reseller-payments':
+        return <ResellerPayments />;
       case 'categories':
         return <Categories />;
       case 'units':

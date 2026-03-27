@@ -15,6 +15,9 @@ import Consignments from './pages/Consignments';
 import ResellerPayments from './pages/ResellerPayments';
 import Categories from './pages/Categories';
 import SettingsPage from './pages/Settings';
+import Suppliers from './pages/Suppliers';
+import ResellerJournal from './pages/ResellerJournal';
+import InvoicePrint from './pages/InvoicePrint';
 
 function AppContent() {
   const { user, loading } = useAuth();
@@ -60,6 +63,12 @@ function AppContent() {
         return <Categories />;
       case 'units':
         return <Categories />;
+      case 'suppliers':
+        return <Suppliers />;
+      case 'reseller-journal':
+        return <ResellerJournal />;
+      case 'invoice-print':
+        return <InvoicePrint />;
       case 'settings':
         return <SettingsPage />;
       default:

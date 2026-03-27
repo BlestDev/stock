@@ -15,7 +15,9 @@ import {
   LogOut,
   Menu,
   X,
-  Boxes
+  Boxes,
+  BookOpen,
+  Printer
 } from 'lucide-react';
 
 interface LayoutProps {
@@ -32,14 +34,17 @@ export default function Layout({ children, currentPage, onNavigate }: LayoutProp
     { id: 'dashboard', label: 'Tableau de bord', icon: LayoutDashboard },
     { id: 'products', label: 'Produits', icon: Package },
     { id: 'clients', label: 'Clients', icon: Users },
+    { id: 'suppliers', label: 'Fournisseurs', icon: ShoppingBag },
     { id: 'sales', label: 'Ventes', icon: ShoppingCart },
     { id: 'purchases', label: 'Achats', icon: ShoppingBag },
     { id: 'expenses', label: 'Dépenses', icon: Wallet },
     { id: 'movements', label: 'Mouvements', icon: TrendingUp },
     { id: 'invoices', label: 'Facturation', icon: FileText },
+    { id: 'invoice-print', label: 'Imprimer Facture', icon: Printer },
     { id: 'resellers', label: 'Revendeurs', icon: Boxes },
     { id: 'consignments', label: 'Consignations', icon: ShoppingBag },
     { id: 'reseller-payments', label: 'Ventes Revendeurs', icon: ShoppingCart },
+    { id: 'reseller-journal', label: 'Journal Revendeur', icon: BookOpen },
     { id: 'categories', label: 'Catégories', icon: FolderTree },
     { id: 'units', label: 'Unités', icon: Ruler },
     { id: 'settings', label: 'Paramètres', icon: Settings },

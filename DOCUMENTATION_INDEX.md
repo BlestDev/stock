@@ -39,6 +39,19 @@ Bienvenue dans la documentation complète de Stock Pro. Utilisez ce guide pour t
 
 ---
 
+### Guides spécialisés
+
+- **[RESELLER_SYSTEM_GUIDE.md](./RESELLER_SYSTEM_GUIDE.md)** - Comprendre le système de revendeurs
+  - Concepts fondamentaux de consignation
+  - Architecture des entités
+  - Workflow complet étape par étape
+  - Exemples pratiques détaillés
+  - Gestion des soldes
+  - Réconciliation et audit
+  - FAQ du système revendeur
+  - Meilleures pratiques
+  - **Pour qui?** Utilisateurs et gestionnaires de revendeurs
+
 ### Pour les développeurs et architectes
 - **[ARCHITECTURE.md](./ARCHITECTURE.md)** - Architecture technique complète
   - Stack technologique
@@ -111,19 +124,20 @@ Bienvenue dans la documentation complète de Stock Pro. Utilisez ce guide pour t
 ```
 Documentation Stock Pro/
 │
-├── README.md                    # Point d'entrée principal
-├── DOCUMENTATION_INDEX.md       # Ce fichier
+├── README.md                      # Point d'entrée principal
+├── DOCUMENTATION_INDEX.md         # Ce fichier
 │
 ├── 👤 Pour utilisateurs:
-│   ├── USER_GUIDE.md           # Guide complet d'utilisation
-│   └── QUICK_REFERENCE.md      # Cheat sheet rapide
+│   ├── USER_GUIDE.md             # Guide complet d'utilisation
+│   ├── QUICK_REFERENCE.md        # Cheat sheet rapide
+│   └── RESELLER_SYSTEM_GUIDE.md  # Système de revendeurs détaillé
 │
 ├── 👨‍💻 Pour développeurs:
-│   ├── ARCHITECTURE.md         # Architecture technique
-│   └── DATABASE_SCHEMA.md      # Schéma de la base de données
+│   ├── ARCHITECTURE.md           # Architecture technique
+│   └── DATABASE_SCHEMA.md        # Schéma de la base de données
 │
 └── 🚀 Pour déploiement:
-    └── DEPLOYMENT.md           # Guide de déploiement en production
+    └── DEPLOYMENT.md             # Guide de déploiement en production
 ```
 
 ---
@@ -147,9 +161,11 @@ Documentation Stock Pro/
 - QUICK_REFERENCE.md > Flux rapides
 
 ### Système de revendeurs
-- USER_GUIDE.md > Système de revendeurs (section complète)
+- USER_GUIDE.md > Système de revendeurs (vue générale)
+- RESELLER_SYSTEM_GUIDE.md > Guide complet et détaillé
 - QUICK_REFERENCE.md > Flux rapides > Gérer une consignation revendeur
 - DATABASE_SCHEMA.md > Tables du système de revendeurs
+- DEPLOYMENT.md > Étape 1: Préparation de Supabase
 
 ### Base de données
 - DATABASE_SCHEMA.md > Toutes les tables (section complète)
@@ -183,10 +199,11 @@ Documentation Stock Pro/
 | README.md | 6.3 KB | 5-10 min |
 | USER_GUIDE.md | 14 KB | 30-45 min |
 | QUICK_REFERENCE.md | 8.2 KB | 10-15 min |
+| RESELLER_SYSTEM_GUIDE.md | 15 KB | 30-40 min |
 | ARCHITECTURE.md | 9.1 KB | 20-30 min |
 | DATABASE_SCHEMA.md | 18 KB | 25-35 min |
 | DEPLOYMENT.md | 11 KB | 30-45 min |
-| **TOTAL** | **~66 KB** | **2-3 heures** |
+| **TOTAL** | **~81 KB** | **3-4 heures** |
 
 ---
 
@@ -262,7 +279,8 @@ Avant d'utiliser ou maintenir Stock Pro, vérifiez:
 → [QUICK_REFERENCE.md](./QUICK_REFERENCE.md)
 
 **"Comment fonctionne le système de revendeurs?"**
-→ [USER_GUIDE.md](./USER_GUIDE.md) > Système de revendeurs
+→ [RESELLER_SYSTEM_GUIDE.md](./RESELLER_SYSTEM_GUIDE.md) - Guide complet et détaillé
+→ [USER_GUIDE.md](./USER_GUIDE.md) > Système de revendeurs - Vue générale
 → [DATABASE_SCHEMA.md](./DATABASE_SCHEMA.md) > Tables du système de revendeurs
 
 **"Le code plante, comment debug?"**
